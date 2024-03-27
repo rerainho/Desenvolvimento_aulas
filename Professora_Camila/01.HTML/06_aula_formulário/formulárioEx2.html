@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1>Formulário</h1>
+    <form action="#" method="get" autocomplete="on">
+
+        <label for="Nome">Nome:</label>
+        <input type="text" id="Nome" size="20">
+        <input type="submit" value="Enviar"> </br>
+
+        </br><label for="">E-mail:</label>
+        <input type="email" id="email" size="40" required="required">
+        <input type="submit" value="Enviar">
+
+        <p>Deixe seu comentário:</p>
+        <textarea name="message" id="" cols="30" rows="15">Digite aqui</textarea> </br>
+
+        </br>
+        <label for="cidade">Selecione sua cidade:</label>
+        <select name="cidade" id="cidade">
+            <option value="sao_paulo">São Paulo</option>
+            <option value="rio_de_janeiro">Rio de Janeiro</option>
+            <option value="minas_gerais">Minas Gerais</option>
+        </select>
+        </br>
+        <p>Utiliza qual transporte?</p>
+        <label for="transporte">carro</label>
+        <input type="radio" name="tipo" id="transporte" value="carro"><br />
+        <label for="transporte">metrô</label>
+        <input type="radio" name="tipo" id="transporte" value="metrô"><br />
+        <label for="transporte">ônibus</label>
+        <input type="radio" name="tipo" id="transporte" value="ônibus">
+<br><br/>
+        </br><input type="submit" value="Enviar todas as informações">
+
+    </form>
+</body>
+
+</html>
