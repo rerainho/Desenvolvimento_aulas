@@ -1,0 +1,2 @@
+INTRODUÇÃO COMANDOS: testes da página 41 da apostila de GITHUB para a utilização de gitignore; 
+PARA: sendo um meio de não atualização de parte do repositório, ficando assim um arquivo ignorado dos demais
