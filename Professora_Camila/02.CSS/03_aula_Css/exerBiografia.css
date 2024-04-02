@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+body {
+    background-color: #cce9c9;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin: 25px 80px 75px 100px;
+    
+}
+
+h1 {
+    text-align: center;
+    background-color: beige;
+    color: #dd2808;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: #000000;
+    font-weight: bold
+}
+
+p:after,::before {
+    box-sizing: border-box;
+     font-size: 01.0em;
+     text-indent: 3em;
+     text-align: justify;
+     color: #000000;
+     margin: 15px 0px;
+     white-space: 0.05em;}
+
+ 
