@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+body {
+    background-color: #e9c9e6;
+    color: #4d0849;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    margin: 25px 80px 75px 100px;
+}
+
+p {
+    color: #4d0849;
+    font-style: oblique;
+
+
+}
