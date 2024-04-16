@@ -1,0 +1,41 @@
+@charset "uft-8";
+
+body {
+    background-color: cadetblue;
+    border: 2px rgb(2, 77, 54) solid;
+
+}
+
+.container>* {
+    border-radius: 1px;
+    border: 1px solid #fff;
+    margin: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+/*trabalhando com display flex,*/
+/*flex-direction: row, row-reverse colun e colun reverse */
+/* flex wrap: nowrap, wrap e wap reverse */
+/* flex-flow: row nowrap */
+/* justify-content: flex start, flex-end, center, space-around, space-between e space-evenly */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: baseline;
+}
+/* incluindo classe com lista de posicionamento para trabalhar com a propriedade baseline */
+.container div:nth-child(2){
+
+    font-size: 3 rem;
+   
+}
+
+.container div:nth-child(4){
+
+    font-size: 5 rem;
+
+}
