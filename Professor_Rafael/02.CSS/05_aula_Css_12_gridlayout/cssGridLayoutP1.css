@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+.Volkswagen {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.Volkswagen>div {
+    background: rgb(253, 136, 82);
+    padding: 1em;
+
+}
+
+.Honda {
+    display: grid;
+    column-gap: 5px;
+    grid-auto-rows: 70px;
+    grid-gap: 10em;
+    align-self: center;
+}
+
+.Honda>div {
+    background: rgb(112, 23, 85);
+    color: #ffffff
+}
+
+.Chery {
+    grid-auto-rows: 85px;
+    background-color: aquamarine;
+    justify-self: start;
+    align-items: center;
+}
+
+.Renault {
+    grid-auto-rows: 85px;
+    background-color: cornflowerblue;
+    align-content: stretch;
+    justify-self: end;
+
+}
