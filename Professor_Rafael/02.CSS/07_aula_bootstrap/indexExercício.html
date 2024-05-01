@@ -38,6 +38,33 @@ wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="a
                 </select>
                 <br>
                 <hr>
+                <table class="table table-bordered table-hover table-sm">
+                    <caption>Valor dos produtos:</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Produto</th>
+                            <th scope="col">Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-primary">
+                            <td>Bola de Handebol</td>
+                            <td>R$150,00</td>
+                        </tr>
+                        <tr class="table-success">
+                            <td>Bola de Basquete</td>
+                            <td>R$250,00</td>
+                        </tr>
+                        <tr class="table-danger">
+                            <td>Bola de Futebol</td>
+                            <td>R$125,00</td>
+                        </tr>
+                        <tr class="table-warning">
+                            <td>Bola de Voleibol</td>
+                            <td>R$185,00</td>
+                        </tr>
+                    </tbody>
+                </table>
 
                 <label for="exampleDataList" class="form-label">Cidade para a entrega</label>
                 <input class="form-control" list="datalistOptions" id="exampleDataList"
@@ -48,15 +75,25 @@ wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="a
                     <option value="Santos"></option>
                     <option value="Porto Alegre"></option>
                     <option value="Recife"></option>
-                    <option value="Outra"></option>
                 </datalist>
+        
+                <br>
+                <hr>
+                <div class="list-group">
+                    <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+                        Botão atual
+                    </button>
+                    <button type="button" class="list-group-item list-group-item-action">Segundo botão</button>
+                    <button type="button" class="list-group-item list-group-item-action">Terceiro botão</button>
+                    <button type="button" class="list-group-item list-group-item-action">Quarto botão</button>
+                </div>
                 <br>
                 <hr>
                 <label class="form-label">Comprovante de pagamento - Arquivo</label>
                 <input type="file">
                 <br>
                 <span class="form-text">
-                    Apenas arquivos png e jpg.
+                    Apenas arquivos png, QRcode e jpeg.
                 </span>
                 <br>
                 <hr>
@@ -71,80 +108,20 @@ wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="a
             </form>
         </section>
         <section class="container">
-            <!-- Tabela Primeiro Exemplo -->
             <table class="table table-striped">
-                <thead>
-                    <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Primeiro Nome</th>
-                        <th scope="col">Segundo Nome</th>
-                        <th scope="col">Idade</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Jill</td>
-                        <td>Smith</td>
-                        <td>50</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Eve</td>
-                        <td>Jackson</td>
-                        <td>24</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>John</td>
-                        <td>Doe</td>
-                        <td>34</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">4</th>
-                        <td>John</td>
-                        <td>Doe</td>
-                        <td>34</td>
-                    </tr>
+
                 </tbody>
             </table>
-            <!-- parei de montar o exercício aqui, continuar a partir daqui -->
             <br>
             <hr>
         </section>
-        <!-- Tabela Segundo Exemplo -->
-        <table class="table table-bordered table-hover table-sm">
-            <caption>Tabela 01: Dinheiro guardado mensalmente</caption>
-            <thead>
-                <tr>
-                    <th scope="col">Mês</th>
-                    <th scope="col">Valor</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="table-primary">
-                    <td>Janeiro</td>
-                    <td>R$100,00</td>
-                </tr>
-                <tr class="table-success">
-                    <td>Fevereiro</td>
-                    <td>R$50,00</td>
-                </tr>
-                <tr class="table-danger">
-                    <td>Março</td>
-                    <td>R$25,00</td>
-                </tr>
-                <tr class="table-warning">
-                    <td>Abril</td>
-                    <td>R$40,00</td>
-                </tr>
-            </tbody>
+
+        </tbody>
         </table>
         <br>
         <hr>
-        <!-- Exemplo de Listas com a classe List Group -->
         <section class="container">
-            <!-- Lista básica -->
+
             <ul class="list-group">
                 <li class="list-group-item active" aria-current="true">Item Um</li>
                 <li class="list-group-item">Item Dois</li>
