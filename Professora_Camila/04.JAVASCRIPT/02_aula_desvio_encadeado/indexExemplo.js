@@ -52,8 +52,8 @@ console.log(`primeiro elemento de num2:${num2[0]}`); //código na linha dois est
 // elementos diversos do array bidimensional// 
 
 console.clear();
-const matrix = [['banana', 'maça','pêra']
-['Laranja', true,1]
+const matrix = [['banana', 'maça','pêra'],
+['Laranja', true,1],
 [null, 'Uva', -350]];
 
 // acessando os elementos diversos de array //
