@@ -1,6 +1,6 @@
 
-const string10 = 'Maça';
-
+const Frutas = [' ','Maça', 'caqui', 'caju','figo','pêra'];
+console.log(substring)
 
 
 
