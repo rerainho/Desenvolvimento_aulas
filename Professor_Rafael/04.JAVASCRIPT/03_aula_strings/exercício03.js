@@ -1,4 +1,3 @@
-
 console.clear();
 let text = [' ','Maça', 'Caqui', 'Caju','Figo','Pêra']; 
 
@@ -19,8 +18,12 @@ console.log(str03.trim);
 console.clear();
 let mensagem = [' ','Maça', 'Caqui', 'Caju','Figo','Pêra'];
 console.log(mensagem);
-let novaMensagem = mensagem.replace('Caju', 'Caqui');
-console.log(novaMensagem);
+
+let novaMensagem = mensagem.replace=('Caju','Pitaya');
+console.log(novaMensagem.toLowerCase('Pitaya'));
+
+console.clear();
+console.log(`Maça, Caqui, Caju, Figo,Pêra`);
 
 
 
