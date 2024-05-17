@@ -1,9 +1,9 @@
-// JavaScript e DOM
-// objeto document
-console.log(document);
+ // JavaScript e DOM
+//objeto document
+consoleinformações
+console.clea.log(document);
 
-// Acessar informações
-console.clear();
+// Acessar r();
 console.log(document.domain);
 console.log(document.URL);
 console.log(document.title);
