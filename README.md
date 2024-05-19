@@ -1,1 +1,1 @@
- Repositório para atividades destinadas as aulas de desenvolviento web na instituíção IOS.
+ Repositório para atividades destinadas as aulas de desenvolviento web na instituição IOS.
