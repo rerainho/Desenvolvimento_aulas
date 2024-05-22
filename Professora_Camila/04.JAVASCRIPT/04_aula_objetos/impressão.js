@@ -1,6 +1,14 @@
+
+// mês, ano, hora//
 let dataHoje = new Date();
 let dia = dataHoje.getDate();
-let mês = dataHoje.getDate();
+
+
+let mes = dataHoje.getDate();
+let ano = dataHoje.getDate();
+let hora = dataHoje.getDate();
 
 console.log(dia);
-// mês, ano, hora//
+console.log(mes);
+console.log(ano);
+console.log(hora);
