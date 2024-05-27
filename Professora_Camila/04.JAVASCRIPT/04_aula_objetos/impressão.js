@@ -3,12 +3,10 @@
 let dataHoje = new Date();
 let dia = dataHoje.getDate();
 
+let calendar = calendar.getInstance()
+calendar.setTime(date);
 
-let mes = dataHoje.getDate();
-let ano = dataHoje.getDate();
-let hora = dataHoje.getDate();
+let ano = calendar.get(calendar.year)
 
 console.log(dia);
-console.log(mes);
-console.log(ano);
-console.log(hora);
+
