@@ -1,14 +1,14 @@
 
-let paragrafo = document.querySelector('p');
-paragrafo.style.background = '#FBBEBA';
+function mudarCorFundo() {
+            const primeiroParagrafo = document.querySelector('section:first-of-type p');
+            primeiroParagrafo.style.backgroundColor = 'yellow';
+        }
 
-
-let linhas = document.querySelectorAll('my-teste');
-
-for (i = 0; i < section.length; i++) {
-linhas[i].style.border = '1px solid #0000FF';
-linhas[i].style.padding = '3px';
-}
-console.log(linhas);
+        function marcarParagrafos() {
+            const paragrafosSegundaSecao = document.querySelectorAll('section:last-of-type p');
+            paragrafosSegundaSecao.forEach(paragrafo => {
+                paragrafo.style.fontWeight = 'bold';
+            });
+        }
 
 
