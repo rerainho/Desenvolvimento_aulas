@@ -1,6 +1,6 @@
 function mudarCorFundo() {
     const primeiroParagrafo = document.querySelector('section:first-of-type p');
-    primeiroParagrafo.style.backgroundColor = 'yellow';
+    primeiroParagrafo.style.backgroundColor = 'green';
 }
 
 function marcarParagrafos() {
@@ -8,6 +8,5 @@ function marcarParagrafos() {
     paragrafosSegundaSecao.forEach(paragrafo => {
         paragrafo.style.fontWeight = 'bold';
     });
-}
 
 
