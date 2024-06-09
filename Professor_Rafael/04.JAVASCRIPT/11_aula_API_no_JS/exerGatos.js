@@ -16,5 +16,6 @@ function getImage(e) {
     let imagem = `<img class="rounded img-fluid" src="${data[0,1,2,3,4].url}" />`;
     // Insere a imagem no elemento HTML com id imagem_aqui
     document.querySelector('#imagem_aqui_1').innerHTML = imagem;
+    document.querySelector('#imagem_aqui_2').innerHTML = imagem;
     });
     }
