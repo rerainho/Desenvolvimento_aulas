@@ -17,5 +17,13 @@ function getImage(e) {
     // Insere a imagem no elemento HTML com id imagem_aqui
     document.querySelector('#imagem_aqui_1').innerHTML = imagem;
     document.querySelector('#imagem_aqui_2').innerHTML = imagem;
+    document.querySelector('#imagem_aqui_3').innerHTML = imagem;
+    document.querySelector('#imagem_aqui_4').innerHTML = imagem;
+    document.querySelector('#imagem_aqui_5').innerHTML = imagem;
+    document.querySelector('#imagem_aqui_6').innerHTML = imagem;
+    document.querySelector('#imagem_aqui_7').innerHTML = imagem;
+    document.querySelector('#imagem_aqui_8').innerHTML = imagem;
+    document.querySelector('#imagem_aqui_9').innerHTML = imagem;
+    document.querySelector('#imagem_aqui_10').innerHTML = imagem;
     });
     }
