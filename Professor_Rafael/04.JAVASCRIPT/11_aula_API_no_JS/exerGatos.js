@@ -12,18 +12,9 @@ function getImage(e) {
     })
     .then((data) => {
     console.log(data);
-    document.getElementById('id').innerText = data[0,1,2,3,4].id;
-    let imagem = `<img class="rounded img-fluid" src="${data[0,1,2,3,4].url}" />`;
+    document.getElementById('id').innerText = data[0].id;
+    let imagem = `<img class="rounded img-fluid" src="${data[0].url}" />`;
     // Insere a imagem no elemento HTML com id imagem_aqui
-    document.querySelector('#imagem_aqui_1').innerHTML = imagem;
-    document.querySelector('#imagem_aqui_2').innerHTML = imagem;
-    document.querySelector('#imagem_aqui_3').innerHTML = imagem;
-    document.querySelector('#imagem_aqui_4').innerHTML = imagem;
-    document.querySelector('#imagem_aqui_5').innerHTML = imagem;
-    document.querySelector('#imagem_aqui_6').innerHTML = imagem;
-    document.querySelector('#imagem_aqui_7').innerHTML = imagem;
-    document.querySelector('#imagem_aqui_8').innerHTML = imagem;
-    document.querySelector('#imagem_aqui_9').innerHTML = imagem;
-    document.querySelector('#imagem_aqui_10').innerHTML = imagem;
+    document.querySelector('#imagem_aqui').innerHTML = imagem;
     });
     }
