@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="exerCss.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-
+1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-
+Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==
+" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Meus filmes favoritos</title>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <form>
+            <select id="product-select" class="form-control custom-select">
+                <option value="0" disabled selected>Selecione um Produto</option>
+                <option value="inter">Interestelar</option>
+                <option value="maria">Maria Antonieta</option>
+                <option value="EndGame">Vingadores: Ultimato</option>
+                <option value="Django">Django Livre</option>
+                <option value="SM1">Homem-Aranha 1</option>
+                <option value="SAW1">Jogos Mortais</option>
+                <option value="Batman">Batman: O Cavaleiro das Trevas</option>
+                <option value="SMAtS">Homem-Aranha: Através do Aranhaverso</option>
+                <option value="Rocky">Rocky o Lutador</option>
+                <option value="VF">Velozes e Furiosos</option>
+
+            </select>
+            <input type="number" id="rating-control" class="form-control" step="0.1" max="10" placeholder="Rate 1 - 10"
+                disabled />
+        </form>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Filmes preferidos</th>
+                    <th>Classificação do IMDB</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="inter">
+                    <td>Interestelar</td>
+                    <td>
+                        <div class="stars-outer">
+                            <div class="stars-inner"></div>
+                        </div>
+                        <span class="number-rating"></span>
+                    </td>
+                </tr>
+                <tr class="maria">
+                    <td>Maria Antonieta</td>
+                    <td>
+                        <div class="stars-outer">
+                            <div class="stars-inner"></div>
+                        </div>
+                        <span class="number-rating"></span>
+                    </td>
+                </tr>
+                <tr class="EndGame">
+                    <td>Vingadores: Ultimato</td>
+                    <td>
+                        <div class="stars-outer">
+                            <div class="stars-inner"></div>
+                        </div>
+                        <span class="number-rating"></span>
+                    </td>
+                </tr>
+                <tr class="Django">
+                    <td>Django Livre</td>
+                    <td>
+                        <div class="stars-outer">
+                            <div class="stars-inner"></div>
+                        </div>
+                        <span class="number-rating"></span>
+                    </td>
+                </tr>
+                <tr class="SM1">
+                    <td>Homem-Aranha 1</td>
+                    <td>
+                        <div class="stars-outer">
+                            <div class="stars-inner"></div>
+                        </div>
+                        <span class="number-rating"></span>
+                    </td>
+                </tr>
+                <tr class="SAW1">
+                    <td>Jogos Mortais</td>
+                    <td>
+                        <div class="stars-outer">
+                            <div class="stars-inner"></div>
+                        </div>
+                        <span class="number-rating"></span>
+                    </td>
+                </tr>
+                <tr class="Batman">
+                    <td>Batman: O Cavaleiro das Trevas</td>
+                    <td>
+                        <div class="stars-outer">
+                            <div class="stars-inner"></div>
+                        </div>
+                        <span class="number-rating"></span>
+                    </td>
+                </tr>
+                <tr class="SMAtS">
+                    <td>Homem-Aranha: Através do Aranhaverso</td>
+                    <td>
+                        <div class="stars-outer">
+                            <div class="stars-inner"></div>
+                        </div>
+                        <span class="number-rating"></span>
+                    </td>
+                </tr>
+                <tr class="Rocky">
+                    <td>Rocky o Lutador</td>
+                    <td>
+                        <div class="stars-outer">
+                            <div class="stars-inner"></div>
+                        </div>
+                        <span class="number-rating"></span>
+                    </td>
+                </tr>
+                <tr class="VF">
+                    <td>Velozes e Furiosos</td>
+                    <td>
+                        <div class="stars-outer">
+                            <div class="stars-inner"></div>
+                        </div>
+                        <span class="number-rating"></span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="exerFilme.js"></script>
+</body>
+
+</html>
