@@ -1,14 +1,14 @@
 const ratings = {
-    TASM: 6.6,
-    Coringa: 8.4,
-    EndGame: 8.4,
-    Django: 8.5,
-    SM1: 6.30,
-    SAW1: 8.6,
-    Batman: 9.0,
-    SMAtS: 8.6,
-    Rocky: 8.1,
-    VF: 3.4,
+    inter: 8.7,
+    maria: 6.7,
+    fabu: 8.3,
+    dr30: 6.3,
+    mar1: 7.4,
+    jogosV: 6.5,
+    forrestGump: 8.8,
+    stars: 7.8,
+    jogoI: 8.1,
+    devil: 6.9,
     };
     // Total de estrelas
     const starsTotal = 10;
